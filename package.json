@@ -1,0 +1,31 @@
+{
+  "name": "jsonresume-theme-pro",
+  "version": "1.0.0",
+  "description": "A professional Svelte-based theme for JSON Resume",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "json",
+    "resume",
+    "jsonresume",
+    "jsonresume-theme",
+    "theme",
+    "svelte"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.0",
+    "svelte": "^5.2.7",
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.4.47",
+    "mdi-svelte": "^1.1.2"
+  }
+}
