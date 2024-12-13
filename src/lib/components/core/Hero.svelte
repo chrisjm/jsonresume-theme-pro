@@ -17,17 +17,17 @@
   const { profiles = [] } = basics
 </script>
 
-<header class="max-w-[700px] mx-auto mb-10 print:mb-4">
-  <div class="text-center mb-2 print:mb-1">
-    <h1 class="text-3xl text-gray-900 print:text-2xl">{basics.name}</h1>
+<header class="max-w-[700px] mx-auto mb-3">
+  <div class="text-center mb-2">
+    <h1 class="text-3xl text-gray-900">{basics.name}</h1>
     {#if basics.label}
-      <h2 class="text-xl text-gray-600 font-normal print:text-lg">
+      <h2 class="text-xl text-gray-600 font-normal">
         {basics.label}
       </h2>
     {/if}
   </div>
 
-  <div class="flex flex-wrap justify-center gap-2 print:gap-1 text-print-base">
+  <div class="flex flex-wrap justify-center gap-2 print:gap-1">
     {#if basics.email}
       <a
         href="mailto:{basics.email}"
@@ -69,7 +69,7 @@
   </div>
   {#if profiles.length > 0}
     <div
-      class="flex flex-wrap justify-center gap-2 print:gap-1 text-print-base"
+      class="flex flex-wrap justify-center gap-2 print:gap-1"
     >
       {#each profiles as profile}
         <div class="flex items-center gap-1 text-gray-700">

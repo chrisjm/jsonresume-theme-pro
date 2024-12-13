@@ -4,8 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['LatinModern', 'serif'],
-        'sans-serif': ['LatinModernSans', 'sans-serif'],
+        serif: ['Noto Serif', 'serif'],
       },
       fontSize: {
         'print-sm': '0.75rem',

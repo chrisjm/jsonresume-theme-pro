@@ -34,7 +34,7 @@
         <div class="">
           <ul class="ml-6 m-0 list-disc text-gray-700 leading-tight">
             {#each item.courses as course}
-              <li>{course}</li>
+              <li class="font-size-[10px]">{course}</li>
             {/each}
           </ul>
         </div>

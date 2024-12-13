@@ -16,6 +16,6 @@
   $: formattedEnd = endDate ? formatDate(endDate) : "Present"
 </script>
 
-<div class="text-sm whitespace-nowrap italic">
+<div class="text-[10px] whitespace-nowrap italic">
   {formattedStart} - {formattedEnd}
 </div>

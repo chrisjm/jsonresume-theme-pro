@@ -30,7 +30,7 @@
               {cert.name}
             {/if}
           </h3>
-          <span class="text-gray-800 italic">
+          <span class="text-gray-800 italic text-[10px]">
             {#if cert.date}
               {formatDate(cert.date)}
             {/if}
@@ -42,7 +42,7 @@
       </div>
 
       {#if cert.summary}
-        <p class="text-gray-600 text-sm ml-6">{cert.summary}</p>
+        <p class="text-gray-600 font-size-[10px] ml-6">{cert.summary}</p>
       {/if}
     </div>
   {/each}

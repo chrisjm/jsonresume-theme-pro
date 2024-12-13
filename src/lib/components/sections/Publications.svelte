@@ -26,7 +26,7 @@
           </h3>
           <div class="text-gray-600">
             {#if pub.releaseDate}
-              <span class="text-gray-700">{formatDate(pub.releaseDate)}</span>
+              <span class="text-gray-700 text-[10px]">{formatDate(pub.releaseDate)}</span>
             {/if}
           </div>
         </div>
@@ -34,7 +34,7 @@
       </div>
 
       {#if pub.summary}
-        <p class="text-gray-700 ml-6 text-sm">{pub.summary}</p>
+        <p class="text-gray-700 ml-6 text-[10px]">{pub.summary}</p>
       {/if}
     </div>
   {/each}
